@@ -7,3 +7,74 @@
   font-weight: 400px;
   font-style: normal;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.display-flex{
+  display: flex;
+}
+/* Navbar Styles */
+.navbar{
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.navbarlogo{
+  align-items: center;
+  
+}
+
+.nav-title{
+  font-size: 2rem;
+  font: bolder;
+}
+.navbar-links{
+  list-style: none;
+  gap: 30px;
+  
+  
+}
+
+.nav-link1-color{
+  color: rgba(254, 163, 1, 1);
+  font: bolder;
+}
+
+.nav-link2-color{
+  color: rgba(1, 172, 253, 1);
+  font: bolder;
+}
+
+.nav-link3-color{
+  color: #05D4DF;
+  font: bolder;
+}
+
+.nav-link4-color{
+  color: rgb(28, 22, 200);
+  font: bolder;
+}
+
+.nav-btn{
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(254, 163, 1, 1);
+  padding: 10px;
+  color: white;
+  width: 160px;
+
+}
+
+.navlinkitem{
+  text-decoration: none;
+}
+
+
+
+/* Responsive media query */
