@@ -173,6 +173,18 @@
 }
 
 
+.qq{
+  display: flex;
+}
+
+#Last-part{
+ 
+
+  display: flex;
+  color: white;
+  background-color: rgb(97, 113, 120);
+  justify-content: space-around;
+}
 
 /* Responsive media query */
 
@@ -193,6 +205,10 @@
     }
     .cards{
       flex-direction: column-reverse;
+    }
+    #Last-part{
+      flex-direction: column;
+      padding-left:20px;
     }
 
   
