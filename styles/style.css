@@ -20,9 +20,9 @@
 /* Navbar Styles */
 .navbar{
   align-items: center;
-  justify-content:space-evenly;
-  padding: 20px;
-  margin: 0 auto;
+  justify-content:space-around;
+  margin: 15px auto;
+  max-width: 1160px;
 }
 
 .navbarlogo{
@@ -71,10 +71,100 @@
 
 }
 
+.banner-btn{
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  width: 160px;
+}
+
 .navlinkitem{
   text-decoration: none;
 }
 
+#banner{
+  align-items: center;
+  max-width: 1060px;
+  margin: 0 auto;
+}
 
+.banner-contant{
+  margin-right: 130px;
+  max-width: 640px;
+}
+.banner-content-title{
+  font-size: 2rem;
+}
+
+.banner-para{
+  margin: 10px 0;
+}
+
+#enp-clr{
+  color: rgba(254, 163, 1, 1); ;
+}
+#twr-clr{
+  color: rgba(1, 172, 253, 1);
+
+}
+.banner-img{
+  width: 100%;
+}
+
+#section02{
+  background-image: url(../images/bg.png);
+}
+
+.stan-c{
+  text-align: center;
+}
+#xyz{
+  display: none;
+}
+.feature-card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.offer-1{
+  background-color: rgba(222, 245, 255, 1);
+  border-radius: 18px;
+  width: 370px;
+  height: 470px;
+
+
+}
+.offer-2{
+  background-color: rgba(255, 244, 220, 1);
+  border-radius: 18px;
+  width: 370px;
+  height: 470px;
+}
+.offer-3{
+  background-color: rgba(242, 232, 255, 1);
+  border-radius: 18px;
+  width: 370px;
+  height: 470px;
+}
 
 /* Responsive media query */
+
+@media screen and (max-width: 576px) {
+    .navbar-links, .nav-title, .nav-btn{
+      display: none;
+    }
+    #banner{
+      flex-direction:column-reverse;
+      margin-left: 30px;
+    }
+    #xyz{
+      display: block;
+    }
+
+  
+}
