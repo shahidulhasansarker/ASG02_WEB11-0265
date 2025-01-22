@@ -37,6 +37,20 @@
   
 }
 
+#arrow-sg{
+  color: white;
+  background-color: orange;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#arrow-sgg{
+  color: white;
+  background-color: orange;
+  padding: 15px;
+  border-radius: 50%;
+}
+
 .nav-link1-color{
   color: rgba(254, 163, 1, 1);
   font: bolder;
